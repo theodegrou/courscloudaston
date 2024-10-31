@@ -1,5 +1,5 @@
 # Importation du Blueprint, de render_template
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request, redirect
 # import du connecteur mongo/python
 from pymongo import MongoClient
 ### import du module os pour la gestion de variable d'environement
